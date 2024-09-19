@@ -1,0 +1,16 @@
+{
+  "name": "beckham-freekicks",
+  "version": "1.0.0",
+  "description": "The project visualises free kicks scored by footballer David Beckham",
+  "main": "beckham.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gavin Ransom",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/preset-env": "^7.25.4",
+    "csvtojson": "^2.0.10",
+    "d3": "^7.9.0"
+  }
+}

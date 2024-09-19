@@ -1,0 +1,57 @@
+num,x,y,x2,y2,x3,y3,curve,club,fixture,season
+1,275,330,335,480,318,560,0.75,Preston North End,Preston North End v Fulham,1994/95
+2,398,355,430,505,370,570,0.25,Manchester United,Manchester United v Southampton,1996/97
+3,280,320,335,480,318,560,0.85,Manchester United,Manchester United v Tottenham,1996/97
+4,417,350,400,480,318,570,0.85,Manchester United,Manchester United v Liverpool,1997/98
+5,425,240,450,457,380,550,0.85,Manchester United,Manchester United v Chelsea,1997/98
+6,310,280,350,457,320,560,0.85,England,England v Colombia,1997/98
+7,280,275,340,457,325,550,0.85,Manchester United,Manchester United v Leicester City,1998/99
+8,310,305,360,457,318,565,0.85,Manchester United,Manchester United v Barcelona,1998/99
+9,170,260,320,457,318,550,0.85,Manchester United,Man Ud v Brondby,1998/99
+10,365,315,380,457,370,562,1.5,Manchester United,Manchester United v Everton,1998/99
+11,420,290,420,457,315,565,0.85,Manchester United,Manchester United v Aston Villa,1998/99
+12,170,355,400,457,375,550,0.65,Manchester United,Manchester United v Dinamo Zagreb,1999/00
+13,250,315,350,457,318,550,0.65,Manchester United,Leicester City v Manchester United,1999/00
+14,340,285,375,457,330,570,0.65,Manchester United,Manchester United v West Ham,1999/00
+15,310,335,385,457,375,560,0.65,Manchester United,Southampton v Manchester United,1999/00
+16,120,255,385,457,375,560,0.65,Manchester United,Ipswich Town v Manchester United,2000/01
+17,415,265,450,457,375,560,0.85,Manchester United,West Ham v Manchester United,2000/01
+18,390,343,380,500,360,550,0.85,Manchester United,Manchester United v Leeds Utd,2000/01
+19,320,310,340,450,330,550,0.85,Manchester United,Coventry City v Manchester United,2000/01
+20,370,260,370,450,318,560,0.85,Manchester United,Man City v Manchester United,2000/01
+21,287,310,370,450,325,560,0.85,England,England v Mexico,2000/01
+22,450,324,450,450,375,560,0.85,England,Greece v England,2000/01
+23,255,325,350,450,322,570,0.85,Manchester United,Manchester United v Fulham,2001/02
+24,355,242,370,450,370,550,0.85,Manchester United,Blackburn Rovers v Manchester United,2001/02
+25,345,302,370,450,322,565,0.85,England,England v Greece,2001/02
+26,400,321,370,450,319,555,0.85,Manchester United,Southampton v Manchester United,2001/02
+27,325,370,360,450,380,555,0.85,Manchester United,Manchester United v Sunderland,2001/02
+28,260,285,340,470,320,565,0.85,Manchester United,Manchester United v Nantes,2001/02
+29,395,295,415,450,380,565,0.85,Manchester United,Manchester United v Zalaegerszeg,2002/03
+30,145,224,435,425,380,550,0.5,England,Slovakia v England,2002/03
+31,497,317,475,495,320,568,0.75,Manchester United,Manchester United v Portsmouth,2002/03
+32,370,295,425,475,385,560,0.5,England,Liechtenstein v England,2002/03
+33,443,317,485,495,370,570,0.5,Manchester United,Manchester United v Real Madrid,2002/03
+34,520,337,470,515,320,565,0.85,Manchester United,Everton v Manchester United,2002/03
+35,480,310,450,515,320,555,0.75,Real Madrid,Malaga v Real Madrid,2003/04
+36,330,315,405,515,372,562,0.85,Real Madrid,Marseille v Real Madrid,2003/04
+37,190,275,350,515,322,550,0.45,Real Madrid,Leganes v Real Madrid,2003/04
+38,280,265,350,485,322,560,0.85,Real Madrid,Real Madrid v Real Zaragoza,2003/04
+39,335,295,400,485,322,560,0.85,Real Madrid,Real Madrid v Numancia,2004/05
+40,325,265,400,430,320,555,0.55,Real Madrid,Real Madrid v Osasuna,2004/05
+41,460,295,450,500,325,568,0.55,Real Madrid,Numancia v Real Madrid,2004/05
+42,420,276,450,500,370,560,0.55,Real Madrid,Real Madrid v Rosenborg,2005/06
+43,420,365,450,450,375,565,0.55,Real Madrid,Real Madrid v Cadiz,2005/06
+44,303,202,400,450,375,550,0.55,Real Madrid,Sevilla v Real Madrid,2005/06
+45,175,310,300,450,322,550,0.55,England,England v Equador,2005/06
+46,63,352,300,450,387,565,0.55,Real Madrid,Sevilla v Real Madrid,2006/07
+47,470,255,450,450,322,550,0.35,Real Madrid,Real Sociedad v Real Madrid,2006/07
+48,405,305,450,480,322,560,0.35,LA Galaxy,LA Galaxy v DC United,2007/08
+49,368,255,470,450,320,562,0.35,LA Galaxy,LA Galaxy v Real Salt Lake,2007/08
+50,120,460,250,510,325,560,2,AC Milan,AC Milan v Genoa,2008/09
+51,302,320,400,480,375,562,0.65,LA Galaxy,LA Galaxy v Chivas USA,2010
+52,121,320,350,480,330,562,0.55,LA Galaxy,LA Galaxy v Sporting Kansas,2011
+53,529,325,500,500,375,562,0.35,LA Galaxy,Montreal v LA Galaxy,2012
+54,270,355,400,500,335,562,0.15,LA Galaxy,San Jose v LA Galaxy,2012
+55,240,325,350,480,322,552,0.55,LA Galaxy,Portland v LA Galaxy,2012
+56,290,335,365,480,327,562,0.55,LA Galaxy,LA Galaxy v Vancouver,2012

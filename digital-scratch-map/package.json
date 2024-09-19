@@ -1,0 +1,14 @@
+{
+  "name": "digital-scratch-map",
+  "version": "1.0.0",
+  "description": "The project visualises countries visited in the world",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gavin Ransom",
+  "license": "ISC",
+  "dependencies": {
+    "d3": "^7.9.0"
+  }
+}

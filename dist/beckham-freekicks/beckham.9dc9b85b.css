@@ -1,0 +1,189 @@
+body {
+  color: #757e63;
+  background-color: #1d1b1b;
+  font-family: helvetica neue;
+}
+
+.menu-container {
+  flex-direction: column;
+  align-items: center;
+  margin-left: 5%;
+  display: flex;
+}
+
+#menu-box {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.menu-image {
+  width: 100px;
+  height: 100px;
+}
+
+#page-header {
+  flex-direction: column;
+  align-items: flex-end;
+  display: flex;
+}
+
+h1 {
+  margin-bottom: 0%;
+  font-size: 50px;
+  font-weight: 200;
+}
+
+h2 {
+  margin-top: 0%;
+  font-weight: 200;
+}
+
+ul {
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+ul li {
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+li:hover {
+  color: #fff;
+}
+
+li:first-child {
+  margin-bottom: 30px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#current {
+  text-decoration-line: underline;
+  text-decoration-thickness: 1px;
+}
+
+#top {
+  font-size: 30px;
+}
+
+.container {
+  grid-template: "left right right right right" 1fr
+  / 20% 20% 20% 20% 20%;
+  min-height: 98vh;
+  display: grid;
+}
+
+.main-container {
+  grid-area: right;
+}
+
+svg {
+  color: #e4e9dd;
+}
+
+image {
+  border: 1px solid #f43307;
+}
+
+#club-filter {
+  color: #757e63;
+  background-color: #1d1b1b;
+  border-color: #757e63;
+  border-radius: 4px;
+  padding: 2.5px 10px 2.5px 0;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+#beckham-container {
+  justify-content: center;
+  margin-left: 5%;
+}
+
+#visualisation-container {
+  flex-direction: row;
+  align-items: flex-start;
+  margin-top: 20px;
+  display: flex;
+}
+
+#svg-container {
+  width: fit-content;
+}
+
+#legend-tooltip {
+  margin-top: 37.5px;
+}
+
+#legend-container {
+  margin-left: 20px;
+  padding: 0 10px 10px 0;
+}
+
+.legend-item {
+  align-items: center;
+  margin-bottom: 5px;
+  font-size: 25px;
+  font-weight: 200;
+  display: flex;
+}
+
+.legend-color {
+  border: 1px solid #000;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.axis path {
+  stroke: none;
+}
+
+.axis line {
+  stroke: red;
+}
+
+.axis .tick {
+  display: none;
+}
+
+.axis .domain {
+  stroke: none;
+}
+
+.text {
+  color: #2256f1;
+}
+
+.axis text {
+  display: none;
+}
+
+#tooltip {
+  pointer-events: none;
+  opacity: 0;
+  background-color: #1d1b1b;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 35px;
+  font-weight: 200;
+  transition: opacity .3s ease-in-out;
+}
+
+.pitch {
+  transition: opacity .3s ease-in-out;
+}
+
+.goal-path {
+  transition: opacity .1s ease-in-out;
+}
+/*# sourceMappingURL=beckham.9dc9b85b.css.map */

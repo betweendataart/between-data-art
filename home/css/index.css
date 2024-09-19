@@ -1,0 +1,95 @@
+body {
+    background-color: #1d1b1b;
+    font-family: "helvetica neue";
+    color: #757E63;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#header-container {
+text-align: center;
+}
+
+#contents-container {
+display: flex;
+flex-direction: column;
+margin-top: 40px;
+}
+
+.menu-image {
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-weight: 200;
+    font-size: 60px;
+    margin: 0%;
+}
+
+.square {
+    display: flex; /* Enable Flexbox */
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center; /* Center children vertically */
+    margin-top: 100px;
+    /* height: 100vh;  */
+    /* border: 1px solid #757e63;  */
+    padding: 20px; /* Optional padding */
+    width: 375px;
+    align-items: center;
+}
+
+.list {
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: #f5f5f5;
+}
+
+#square-img {
+    height: 404px;
+    width: 300px;
+    background-image: url("/home/assets/beckham.jpg");
+    background-size: cover;
+    border: 1px solid #757e63;
+    border-radius: 50px;
+    margin-bottom: 25px; /* Space between image and text */
+}
+
+#square-text {
+    font-size: 30px;
+    color: #757e63; /* Optional text color */
+
+}
+
+.hover-image {
+    display: block; /* Remove extra space below the image */
+    width: 100%; /* Ensure image fits its container */
+    transition: box-shadow 0.3s ease; /* Smooth transition for box-shadow */
+    transition: transform 0.3s ease;
+}
+
+.hover-image:hover {
+    box-shadow: 0 0 5px #fff; /* Yellow glow effect */
+    transform: scale(1.01);
+}
+
+
+
+

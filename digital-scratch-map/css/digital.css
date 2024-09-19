@@ -1,0 +1,57 @@
+@import url("../../common/css/base-light.css");
+
+.holding-container {
+    width: auto;
+}
+
+/* Country Tables -------------------------- */
+.list-central-container {
+    width: 1000px;
+}
+
+.container-list {
+display: flex;
+justify-content: center;
+margin-top: 20px;
+}
+
+.list {
+flex: 1;
+font-size: 20px;
+font-weight: 200;
+list-style-type: none;
+padding: 0;
+margin: 0px;
+display: flex;
+width: 50%;
+}
+
+.list li {
+    padding: 0px 12px;
+}
+
+#rowOne li, #rowTwo li {
+margin-bottom: 20px;
+}
+
+#rowOne li:hover, #rowTwo li:hover {
+    color: #757e63;
+}
+
+/* ------------------------------------------- */
+
+/* Map */
+.container-graph {
+    /* padding-left: 7.5%; */
+    display: flex;
+    justify-content: left;
+    flex: 2;
+    width: 1000px;
+    height: 600px;
+}
+
+#map {
+    width: 100%;
+    /* opacity: 0; */
+    /* transition: opacity 2s ease-in-out; */
+}
