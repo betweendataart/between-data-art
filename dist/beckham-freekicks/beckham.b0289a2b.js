@@ -588,8 +588,8 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 var _beckhamJson = require("../data/beckham.json");
 var _beckhamJsonDefault = parcelHelpers.interopDefault(_beckhamJson);
+// Import d3
 var _d3 = require("d3");
-// d3
 // Data
 var _pitchJpg = require("../assets/pitch.jpg");
 var _pitchJpgDefault = parcelHelpers.interopDefault(_pitchJpg);
@@ -657,15 +657,13 @@ g.append("g").attr("class", "axis").call(_d3.axisLeft(y).tickSize(0).tickFormat(
 // Data Points --------------------------------------------------------------------------------------------------
 const updateDatapoints = (filteredData)=>{
     // Bind data to the circle elements
-    const dataPoints = g.selectAll(".dot").data(filteredData, (d)=>d.num); // Ensure 'd.num' is a unique key
+    const dataPoints = g.selectAll(".dot").data(filteredData, (d)=>d.num);
     // Remove data points that no longer exist
     dataPoints.exit().remove();
     // Add new data points and handle transitions
-    const enteredDataPoints = dataPoints.enter().append("circle").attr("class", "dot").attr("r", 12).attr("cx", (d)=>x(d.x)).attr("cy", (d)=>y(d.y)).attr("fill", (d)=>colorScale(d.club)).attr("stroke", "#000").attr("stroke-width", 1).style("opacity", 0); // Start with opacity 0 for fade-in effect
+    const enteredDataPoints = dataPoints.enter().append("circle").attr("class", "dot").attr("r", 12).attr("cx", (d)=>x(d.x)).attr("cy", (d)=>y(d.y)).attr("fill", (d)=>colorScale(d.club)).attr("stroke", "#000").attr("stroke-width", 1).style("opacity", 0);
     // Merge new and existing data points
-    enteredDataPoints.merge(dataPoints).transition() // Apply transition for both new and updated dots
-    .duration(2000) // Adjust duration as needed
-    .style("opacity", 1).attr("cx", (d)=>x(d.x)).attr("cy", (d)=>y(d.y)).attr("fill", (d)=>colorScale(d.club)).attr("stroke", "#000").attr("stroke-width", 1);
+    enteredDataPoints.merge(dataPoints).transition().duration(2000).style("opacity", 1).attr("cx", (d)=>x(d.x)).attr("cy", (d)=>y(d.y)).attr("fill", (d)=>colorScale(d.club)).attr("stroke", "#000").attr("stroke-width", 1);
     // Apply event handlers to all data points
     g.selectAll(".dot").on("mouseover", mouseOver).on("mouseout", mouseOut);
 };

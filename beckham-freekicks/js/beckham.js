@@ -1,10 +1,7 @@
 // Import Modules --------------------------------------------------------------------------------------------
-
 import data from '../data/beckham.json'
-
+// Import d3
 import * as d3 from 'd3';
-// d3
-
 // Data
 import pitchImage from '../assets/pitch.jpg'
 
@@ -73,8 +70,7 @@ g.append("g")
 const updateDatapoints = filteredData => {
 // Bind data to the circle elements
 const dataPoints = g.selectAll(".dot")
-.data(filteredData, d => d.num); // Ensure 'd.num' is a unique key
-  
+.data(filteredData, d => d.num); 
 // Remove data points that no longer exist
 dataPoints.exit().remove();
   
@@ -88,13 +84,13 @@ const enteredDataPoints = dataPoints.enter()
 .attr("fill", d => colorScale(d.club))
 .attr("stroke", '#000')
 .attr("stroke-width", 1)
-.style("opacity", 0); // Start with opacity 0 for fade-in effect
-  
+.style("opacity", 0); 
+
 // Merge new and existing data points
 enteredDataPoints
 .merge(dataPoints)
-.transition() // Apply transition for both new and updated dots
-.duration(2000) // Adjust duration as needed
+.transition()
+.duration(2000)
 .style("opacity", 1) 
 .attr("cx", d => x(d.x))
 .attr("cy", d => y(d.y))

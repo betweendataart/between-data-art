@@ -1,10 +1,6 @@
 @import url("../../common/css/base.css");
 
 svg {
-    /* margin-top: 20px; */
-    /* border: #757E63; */
-    /* border-width: 1px; */
-    /* border-style: solid; */
     color:#e4e9dd
 }
 
@@ -14,14 +10,20 @@ image {
     border-style: solid;
 }
 
+select {
+    font-weight: 100;
+}
+
 #club-filter {
     background-color: #1d1b1b;
     border-color: #757E63;
     color: #757E63;
     font-size: 20px;
-    font-weight: 200;
+    font-weight: 100;
     padding: 2.5px 10px 2.5px 0px;
     border-radius: 4px;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Open Sans Light', sans-serif;
 }
 
 #beckham-container {
@@ -45,10 +47,7 @@ image {
 }
 
 #legend-container {
-    /* display: flex; */
-    /* flex-direction: column; */
     margin-left: 20px;
-    /* border: 1px solid #757E63; */
     padding: 0px 10px 10px 0px;
 }
 
@@ -64,7 +63,6 @@ image {
     width: 20px;
     height: 20px;
     margin-right: 5px;
-    /* font-size: 20px; */
     border: 1px solid #000;
 }
 
