@@ -111,7 +111,7 @@ setTimeout(highlightNext, 1500);
 }
 // Function to highlight a specific list item
 function highlightListItem(country) {
-    const listItems = document.querySelectorAll('#rowOne li, #rowTwo li'); // Only select items in the target lists
+    const listItems = document.querySelectorAll('#rowOne li, #rowTwo li');
     listItems.forEach(listElement => {
         if (listElement.textContent.trim() === country) {
             listElement.style.textDecoration = 'underline';
@@ -123,7 +123,7 @@ function highlightListItem(country) {
 
 // Function to unhighlight a specific list item
 function unhighlightListItem(country) {
-    const listItems = document.querySelectorAll('#rowOne li, #rowTwo li'); // Only select items in the target lists
+    const listItems = document.querySelectorAll('#rowOne li, #rowTwo li');
     listItems.forEach(listElement => {
         if (listElement.textContent.trim() === country) {
             listElement.style.textDecoration = 'none';

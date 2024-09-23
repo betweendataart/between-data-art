@@ -34,13 +34,12 @@ h1 {
 }
 
 .square {
-    display: flex; /* Enable Flexbox */
-    flex-direction: column; /* Stack children vertically */
-    justify-content: center; /* Center children vertically */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin-top: 100px;
-    /* height: 100vh;  */
-    /* border: 1px solid #757e63;  */
-    padding: 20px; /* Optional padding */
+
+    padding: 20px;
     width: 375px;
     align-items: center;
 }
@@ -63,30 +62,26 @@ a:hover {
 }
 
 #square-img {
-    height: 404px;
+    height: 250px;
     width: 300px;
-    background-image: url("/home/assets/beckham.jpg");
-    background-size: cover;
-    border: 1px solid #757e63;
-    border-radius: 50px;
-    margin-bottom: 25px; /* Space between image and text */
+    background-repeat: no-repeat;
+    margin-bottom: 25px; 
 }
 
 #square-text {
     font-size: 30px;
-    color: #757e63; /* Optional text color */
-
+    color: #757e63;
+    font-weight: 100;
 }
 
 .hover-image {
-    display: block; /* Remove extra space below the image */
-    width: 100%; /* Ensure image fits its container */
-    transition: box-shadow 0.3s ease; /* Smooth transition for box-shadow */
-    transition: transform 0.3s ease;
+    display: block; 
+    width: 100%;
+    transition: box-shadow 0.3s ease;
 }
 
 .hover-image:hover {
-    box-shadow: 0 0 5px #fff; /* Yellow glow effect */
+    box-shadow: 0 0 5px #fff;
     transform: scale(1.01);
 }
 

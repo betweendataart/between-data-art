@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --public-url ./"
+    "build": "parcel build index.html --public-url ./",
+    "clean": "rm -rf dist .parcel-cache"
   },
   "dependencies": {
     "@babel/preset-env": "^7.25.4",

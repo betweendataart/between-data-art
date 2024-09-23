@@ -7,7 +7,7 @@ body {
 .menu-container {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center the menu and image horizontally */
+    align-items: center; 
     margin-left: 5%;
 }
 
@@ -43,7 +43,7 @@ ul {
     padding: 0;
     margin: 0;
     list-style-type: none;
-    text-align: left; /* Center the menu items horizontally */
+    text-align: left; 
 }
 
 ul li {
@@ -85,6 +85,5 @@ a {
 }
 
 .main-container {
-    /* border: solid 1px #757E63; */
     grid-area: right;
 }
